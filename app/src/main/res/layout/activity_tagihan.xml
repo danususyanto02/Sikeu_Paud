@@ -1,0 +1,1059 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#293462"
+    android:orientation="vertical"
+    tools:context=".tagihan">
+
+    <ImageView
+        android:layout_width="100dp"
+
+        android:id="@+id/ava"
+        android:layout_height="100dp"
+        android:src="@drawable/ava"
+        android:layout_gravity="right"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="30dp"
+        />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="10dp"
+        android:text="Selamat Datang,"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:text="Budi Budiman"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/rounded">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginTop="15dp"
+            android:text="Tagihan"
+            android:textSize="30dp"
+            android:textStyle="bold"
+            android:textColor="#a1abd7"
+            />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/month1"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:src="@drawable/jan"
+                android:layout_marginStart="30dp"
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:id="@+id/nom_jan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Nom."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp"
+                    />
+
+                <TextView
+                    android:id="@+id/stat_jan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nom_jan"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Stat."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_jan"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="0dp"
+                    android:text="KodeVa."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="30dp"
+                >
+                <TextView
+                    android:id="@+id/tag1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp100.000,-"
+                    android:textColor="#000000"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:id="@+id/stat_input1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tag1"
+                    android:text="LUNAS"
+                    android:textColor="#3b5249"
+                    android:textStyle="bold"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:id="@+id/va1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_input1"
+                    android:text="KodeVA"
+                    android:textColor="#000000"
+                    android:textSize="23dp"
+                    />
+
+
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/month2"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/feb" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/nom_feb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Nom."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:id="@+id/stat_feb"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nom_feb"
+                    android:layout_marginStart="20dp"
+                    android:text="Stat."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_feb"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="0dp"
+                    android:text="KodeVa."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="30dp">
+
+                <TextView
+                    android:id="@+id/tag2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp100.000,-"
+                    android:textColor="#000000"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:id="@+id/stat_input2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tag2"
+                    android:text="LUNAS"
+                    android:textColor="#3b5249"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/va2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_input2"
+                    android:text="KodeVA"
+                    android:textColor="#000000"
+                    android:textSize="23dp"
+                    />
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/mar" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/nom_mar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="0dp"
+                    android:text="Nom."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:id="@+id/stat_mar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nom_mar"
+                    android:layout_marginStart="20dp"
+                    android:text="Stat."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_mar"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="0dp"
+                    android:text="KodeVa."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="30dp">
+
+                <TextView
+                    android:id="@+id/tag3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp100.000,-"
+                    android:textColor="#000000"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:id="@+id/stat_input3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tag3"
+                    android:text="LUNAS"
+                    android:textColor="#3b5249"
+                    android:textSize="23dp"
+                    android:textStyle="bold" />
+                <TextView
+                    android:id="@+id/va3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_input3"
+                    android:text="KodeVA"
+                    android:textColor="#000000"
+                    android:textSize="23dp"
+                    />
+            </RelativeLayout>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/month3"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/apr" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:id="@+id/nom_apr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Nom."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:id="@+id/stat_apr"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nom_apr"
+                    android:layout_marginStart="20dp"
+                    android:text="Stat."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_apr"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="0dp"
+                    android:text="KodeVa."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="30dp"
+                >
+
+                <TextView
+                    android:id="@+id/tag4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp100.000,-"
+                    android:textColor="#000000"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:id="@+id/stat_input4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tag4"
+                    android:text="LUNAS"
+                    android:textColor="#3b5249"
+                    android:textStyle="bold"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:id="@+id/va4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_input4"
+                    android:text="KodeVA"
+                    android:textColor="#000000"
+                    android:textSize="23dp"
+                    />
+
+            </RelativeLayout>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/may" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:id="@+id/nom_may"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Nom."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:id="@+id/stat_may"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nom_may"
+                    android:layout_marginStart="20dp"
+                    android:text="Stat."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_may"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="0dp"
+                    android:text="KodeVa."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="30dp"
+                >
+
+                <TextView
+                    android:id="@+id/tag5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp100.000,-"
+                    android:textColor="#000000"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:id="@+id/stat_input5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tag5"
+                    android:text="LUNAS"
+                    android:textColor="#3b5249"
+                    android:textStyle="bold"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:id="@+id/va5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_input5"
+                    android:text="KodeVA"
+                    android:textColor="#000000"
+                    android:textSize="23dp"
+                    />
+            </RelativeLayout>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/jun" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:id="@+id/nom_jun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Nom."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:id="@+id/stat_jun"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nom_jun"
+                    android:layout_marginStart="20dp"
+                    android:text="Stat."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_jun"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="0dp"
+                    android:text="KodeVa."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="30dp"
+                >
+
+                <TextView
+                    android:id="@+id/tag6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp100.000,-"
+                    android:textColor="#000000"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:id="@+id/stat_input6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tag6"
+                    android:text="LUNAS"
+                    android:textColor="#3b5249"
+                    android:textStyle="bold"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:id="@+id/va6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_input6"
+                    android:text="KodeVA"
+                    android:textColor="#000000"
+                    android:textSize="23dp"
+                    />
+            </RelativeLayout>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/jul" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:id="@+id/nom_jul"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Nom."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:id="@+id/stat_jul"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nom_jul"
+                    android:layout_marginStart="20dp"
+                    android:text="Stat."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_jul"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="0dp"
+                    android:text="KodeVa."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="30dp"
+                >
+
+                <TextView
+                    android:id="@+id/tag7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp100.000,-"
+                    android:textColor="#000000"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:id="@+id/stat_input7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tag7"
+                    android:text="LUNAS"
+                    android:textColor="#3b5249"
+                    android:textStyle="bold"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:id="@+id/va7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_input7"
+                    android:text="KodeVA"
+                    android:textColor="#000000"
+                    android:textSize="23dp"
+                    />
+            </RelativeLayout>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/ags" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:id="@+id/nom_ags"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Nom."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:id="@+id/stat_ags"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nom_ags"
+                    android:layout_marginStart="20dp"
+                    android:text="Stat."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_ags"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="0dp"
+                    android:text="KodeVa."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="30dp"
+                >
+
+                <TextView
+                    android:id="@+id/tag8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp100.000,-"
+                    android:textColor="#000000"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:id="@+id/stat_input8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tag8"
+                    android:text="LUNAS"
+                    android:textColor="#3b5249"
+                    android:textStyle="bold"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:id="@+id/va8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_input8"
+                    android:text="KodeVA"
+                    android:textColor="#000000"
+                    android:textSize="23dp"
+                    />
+            </RelativeLayout>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/sep" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:id="@+id/nom_sep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Nom."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:id="@+id/stat_sep"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nom_sep"
+                    android:layout_marginStart="20dp"
+                    android:text="Stat."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_sep"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="0dp"
+                    android:text="KodeVa."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="30dp"
+                >
+
+                <TextView
+                    android:id="@+id/tag9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp100.000,-"
+                    android:textColor="#000000"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:id="@+id/stat_input9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tag9"
+                    android:text="LUNAS"
+                    android:textColor="#3b5249"
+                    android:textStyle="bold"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:id="@+id/va9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_input9"
+                    android:text="KodeVA"
+                    android:textColor="#000000"
+                    android:textSize="23dp"
+                    />
+            </RelativeLayout>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/okt" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:id="@+id/nom_okt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Nom."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:id="@+id/stat_okt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nom_okt"
+                    android:layout_marginStart="20dp"
+                    android:text="Stat."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_okt"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="0dp"
+                    android:text="KodeVa."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="30dp"
+                >
+
+                <TextView
+                    android:id="@+id/tag10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp100.000,-"
+                    android:textColor="#000000"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:id="@+id/stat_input10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tag10"
+                    android:text="LUNAS"
+                    android:textColor="#3b5249"
+                    android:textStyle="bold"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:id="@+id/va10"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_input10"
+                    android:text="KodeVA"
+                    android:textColor="#000000"
+                    android:textSize="23dp"
+                    />
+            </RelativeLayout>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/month11"
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/nov" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:id="@+id/nom_nov"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Nom."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:id="@+id/stat_nov"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nom_nov"
+                    android:layout_marginStart="20dp"
+                    android:text="Stat."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_nov"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="0dp"
+                    android:text="KodeVa."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="30dp"
+                >
+
+                <TextView
+                    android:id="@+id/tag11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp100.000,-"
+                    android:textColor="#000000"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:id="@+id/stat_input11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tag11"
+                    android:text="LUNAS"
+                    android:textColor="#3b5249"
+                    android:textStyle="bold"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:id="@+id/va11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_input11"
+                    android:text="KodeVA"
+                    android:textColor="#000000"
+                    android:textSize="23dp"
+                    />
+            </RelativeLayout>
+        </TableRow>
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:src="@drawable/des" />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                >
+                <TextView
+                    android:id="@+id/nom_des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:text="Nom."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:id="@+id/stat_des"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nom_des"
+                    android:layout_marginStart="20dp"
+                    android:text="Stat."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_des"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="0dp"
+                    android:text="KodeVa."
+                    android:textColor="#B5B5B5"
+                    android:textSize="23dp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginStart="50dp"
+                android:layout_marginEnd="30dp"
+                >
+
+                <TextView
+                    android:id="@+id/tag12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Rp100.000,-"
+                    android:textColor="#000000"
+                    android:textSize="23dp" />
+
+                <TextView
+                    android:id="@+id/stat_input12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/tag12"
+                    android:text="LUNAS"
+                    android:textColor="#3b5249"
+                    android:textStyle="bold"
+                    android:textSize="23dp"
+                    />
+                <TextView
+                    android:id="@+id/va12"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/stat_input12"
+                    android:text="KodeVA"
+                    android:textColor="#000000"
+                    android:textSize="23dp"
+                    />
+            </RelativeLayout>
+        </TableRow>
+
+
+
+    </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

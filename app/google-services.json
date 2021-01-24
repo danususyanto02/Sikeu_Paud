@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "789895418825",
+    "firebase_url": "https://sikeupaud.firebaseio.com",
+    "project_id": "sikeupaud",
+    "storage_bucket": "sikeupaud.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:789895418825:android:3b34e8dd72bbf26c0c0e18",
+        "android_client_info": {
+          "package_name": "com.paud.sikeu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "789895418825-fjj88k4i0od11mklrdgqhas60bie4e05.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDL3qL4Q0RpGUP7AtJxBdDXTkzqXtdBnN0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "789895418825-fjj88k4i0od11mklrdgqhas60bie4e05.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

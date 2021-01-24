@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/unknown"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/sikeu"
+        android:layout_width="match_parent"
+        android:layout_marginTop="200dp"
+        android:layout_height="wrap_content"
+        android:text="Buat Akun Baru"
+        android:textAlignment="center"
+        android:textSize="30dp"/>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="15dp"
+        android:layout_weight="1">
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/tghn1"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/tghn2"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/tghn3"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/tghn4"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/tghn5"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/tghn6"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/tghn7"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/tghn8"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/tghn9"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/tghn10"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/tghn11"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/tghn12"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/kdthn1"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/kdthn2"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/kdthn3"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/kdthn4"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/kdthn5"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/kdthn6"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/kdthn7"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/kdthn8"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/kdthn9"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/kdthn10"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/kdthn11"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:id="@+id/kdthn12"/>
+
+
+
+        <EditText
+            android:inputType="textEmailAddress"
+            android:id="@+id/userEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:hint=" Email"
+            />
+
+        <EditText
+            android:inputType="textPersonName"
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:hint="Nama Panjang"
+            />
+        <EditText
+            android:inputType="number"
+            android:id="@+id/noHp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:hint="No Handphone"
+            />
+        <EditText
+            android:inputType="number"
+            android:id="@+id/nis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_person_24"
+            android:hint="NIS"
+            />
+
+        <EditText
+            android:id="@+id/userPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:inputType="textPassword"
+            android:hint=" Password" />
+        <CheckBox
+            android:id="@+id/showPass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Show Password" />
+
+        <Button
+            android:id="@+id/btn_daftar"
+            android:layout_marginTop="10dp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:text="Daftar"/>
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
